@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: 0;
+  color: black  ;
+  transition: all .2s linear;
+}
+
+ul {
+  display: flex;
+  margin: 0;
+  flex-wrap: wrap;
+}
+
+ul img {
+  width: 75px;
+}
+
+li {
+  list-style: none;
+  font-size: 32px;
+  font-weight: 600;
+  padding: 10px 0;
+}
+
+.nav ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav img {
+  width: 150px;
+}
+
+a:hover {
+  font-size: 34px;
+  color: rgb(124, 124, 124);
+}
+
+.head {
+  background-color: #66c9cc73;
+}
+
+.foot {
+  text-align: center;
+  background-color: #66c9cc73;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  text-align: center;
+}
+
+.foot p {
+  color: black;
+}
+
+.container {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.main {
+  margin-top: 50px;
+  font-size: 24px;
+  margin-bottom: 65px;
+}
+
+table {
+  border: 1px solid black;
+  border-bottom: none;
+  text-align: center;
+}
+
+table th {
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+}
+
+table th:last-child {
+  border-right: none;
+}
+
+table td {
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+}
+
+table td:last-child {
+  border-right: none;
+}
+
+.block img {
+  display: block;
+  max-width: 70%;
+  border-radius: 50px;
+  margin: 25px auto;
+}
+
+
